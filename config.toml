@@ -1,0 +1,27 @@
+baseURL = "https://luizm.github.io"
+languageCode = "pt-br-us"
+theme = "hugo-coder"
+
+[params]
+avatarurl = "https://avatars1.githubusercontent.com/u/6004689"
+author = "Luiz Muller"
+description = "Luiz Muller personal website"
+Info = "DevOps Engineer"
+keywords = "blog,devops,developer"
+hidecredits = true
+
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/luizm"
