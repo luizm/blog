@@ -5,7 +5,7 @@ theme = "hugo-coder"
 [params]
 avatarurl = "https://avatars1.githubusercontent.com/u/6004689"
 author = "Luiz Muller"
-description = "Luiz Muller personal website"
+description = "Luiz Muller Blog"
 Info = "DevOps Engineer"
 keywords = "blog,devops,developer"
 hidecredits = true
