@@ -11,17 +11,23 @@ keywords = "blog,devops,developer"
 hidecredits = true
 
 [[menu.main]]
-    name = "Blog"
+    name = "Posts"
     weight = 1
     url  = "/posts/"
 
 [[menu.main]]
     name = "About"
     weight = 2
-    url = "/about/"
+    url = "/about"
 
 [[params.social]]
     name = "Github"
     icon = "fab fa-github fa-2x"
-    weight = 1
+    weight = 2
     url = "https://github.com/luizm"
+
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 2
+    url = "https://www.linkedin.com/in/luiz-antonio-muller-24165a14/"
