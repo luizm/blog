@@ -1,19 +1,16 @@
 baseURL = "https://luizm.dev"
 languageCode = "pt-br-us"
+languagecode = "en"
 theme = "hugo-coder"
 
 [params]
-avatarurl = "https://avatars1.githubusercontent.com/u/6004689"
 author = "Luiz Muller"
-description = "Luiz Muller Blog"
+description = "Luiz Muller"
 Info = "DevOps Engineer"
+avatarurl = "https://avatars1.githubusercontent.com/u/6004689"
 keywords = "blog,devops,developer"
 hidecredits = true
-
-[[menu.main]]
-    name = "Posts"
-    weight = 1
-    url  = "/posts/"
+hideCopyright = true
 
 [[menu.main]]
     name = "About"
@@ -30,4 +27,10 @@ hidecredits = true
     name = "LinkedIn"
     icon = "fab fa-linkedin"
     weight = 2
-    url = "https://www.linkedin.com/in/luiz-antonio-muller-24165a14/"
+    url = "https://www.linkedin.com/in/luiz-antonio-muller-24165a14"
+
+[[params.social]]
+    name = "Medium"
+    icon = "fab fa-medium"
+    weight = 5
+    url = "https://medium.com/@luizm.dev"
