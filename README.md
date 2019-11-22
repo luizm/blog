@@ -1,1 +1,1 @@
-The source code: https://luizm.github.io
+The hugo code: https://luizm.dev
