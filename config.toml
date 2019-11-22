@@ -8,14 +8,10 @@ author = "Luiz Muller"
 description = "Luiz Muller"
 Info = "DevOps Engineer"
 avatarurl = "https://avatars1.githubusercontent.com/u/6004689"
+favicon_32 = "https://avatars1.githubusercontent.com/u/6004689"
 keywords = "blog,devops,developer"
 hidecredits = true
 hideCopyright = true
-
-[[menu.main]]
-    name = "About"
-    weight = 2
-    url = "/about"
 
 [[params.social]]
     name = "Github"
