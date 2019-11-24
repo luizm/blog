@@ -9,7 +9,9 @@ description = "Luiz Muller"
 Info = "DevOps Engineer"
 avatarurl = "https://avatars1.githubusercontent.com/u/6004689"
 favicon_32 = "https://avatars1.githubusercontent.com/u/6004689"
-keywords = "blog,devops,developer"
+keywords = "blog,sre,devops,developer"
+footercontent = "contact@luizm.dev"
+
 hidecredits = true
 hideCopyright = true
 
