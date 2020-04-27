@@ -1,34 +1,56 @@
-baseURL = "https://luizm.dev"
-languageCode = "pt-br-us"
-languagecode = "en"
-theme = "hugo-coder"
+baseurl      = "https://luizm.dev"
+title        = "LuizMuller"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
 
 [params]
-author = "Luiz Muller"
-description = "Luiz Muller"
-Info = "DevOps Engineer"
-avatarurl = "https://avatars1.githubusercontent.com/u/6004689"
-favicon_32 = "https://avatars1.githubusercontent.com/u/6004689"
-keywords = "blog,sre,devops,developer"
-footercontent = "contact@luizm.dev"
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
 
-hidecredits = true
-hideCopyright = true
+  # Subtitle for home
+  homeSubtitle = "SRE Engineer"
 
-[[params.social]]
-    name = "Github"
-    icon = "fab fa-github fa-2x"
-    weight = 2
-    url = "https://github.com/luizm"
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
 
-[[params.social]]
-    name = "LinkedIn"
-    icon = "fab fa-linkedin"
-    weight = 2
-    url = "https://www.linkedin.com/in/luiz-antonio-muller-24165a14"
+  # Metadata mostly used in document's head
+  description = "Luiz Muller personal homepage"
+  keywords = "blog,sre,devops,developer"
+  images = [""]
 
-[[params.social]]
-    name = "Medium"
-    icon = "fab fa-medium"
-    weight = 5
-    url = "https://medium.com/@luizm.dev"
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+  # Social icons
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/luizm"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/luiz-antonio-muller-24165a14"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:contact@luiz.dev"
+
+[taxonomies]
+    category = "blog"
+
+
+[languages]
+  [languages.en]
+    title = "Luiz Muller"
+    copyright = ""
+
+    [languages.en.params.logo]
+      logoText = "whoami"
+      logoHomeLink = "/"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
