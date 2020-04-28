@@ -34,7 +34,7 @@ theme        = "hello-friend-ng"
 
   [[params.social]]
     name = "email"
-    url  = "mailto:contact@luiz.dev"
+    url  = "mailto:contact@luizm.dev"
 
 [taxonomies]
     category = "blog"
