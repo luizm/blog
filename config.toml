@@ -47,4 +47,4 @@ theme        = "hello-friend-ng"
 
     [languages.en.params.logo]
       logoText = "whoami"
-      logoHomeLink = "/"
+      logoHomeLink = "/whoami"
