@@ -29,6 +29,10 @@ theme        = "hello-friend-ng"
     url  = "https://github.com/luizm"
 
   [[params.social]]
+    name = "medium"
+    url  = "https://medium.com/@luizm.dev"
+
+  [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/luiz-antonio-muller-24165a14"
 
