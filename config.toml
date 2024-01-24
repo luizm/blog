@@ -29,12 +29,8 @@ theme        = "hello-friend-ng"
     url  = "https://github.com/luizm"
 
   [[params.social]]
-    name = "medium"
-    url  = "https://medium.com/@luizm.dev"
-
-  [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/in/luiz-antonio-muller-24165a14"
+    url  = "https://www.linkedin.com/in/luizm8"
 
   [[params.social]]
     name = "email"
@@ -49,6 +45,3 @@ theme        = "hello-friend-ng"
     title = "Luiz Muller"
     copyright = ""
 
-    [languages.en.params.logo]
-      logoText = "whoami"
-      logoHomeLink = "/whoami"
